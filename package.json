@@ -8,7 +8,7 @@
   },
   "homepage": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "picgo upload https://ask.qcloudimg.com/http-save/yehe-2662963/lunoeoe5ng.png",
     "patch": "npm version patch && git push origin master && git push origin --tags",
     "minor": "npm version minor && git push origin master && git push origin --tags",
     "major": "npm version major && git push origin master && git push origin --tags"
@@ -25,6 +25,10 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint-plugin-standard": "^3.1.0",
+    "picgo": "^1.4.0"
+  },
+  "dependencies": {
+    "md5": "^2.3.0"
   }
 }
